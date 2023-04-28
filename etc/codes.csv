@@ -1,0 +1,21 @@
+ID,Parameter_ID,Name,Description,Spreadsheet_Value
+productive-p,productive,p,,p
+productive-n,productive,n,,n
+productive-unknown,productive,?,,?
+base-Adj,base,Adj,,Adj
+base-n,base,N,,N
+base-v,base,V,,V
+base-n-adj,base,N/Adj,,N/Adj
+base-v-n-adj,base,V/N/Adj,,V/N/Adj
+dedicated-appl,dedicated,appl,,appl
+dedicated-caus,dedicated,caus,,caus
+dedicated-consider,dedicated,consider,,consider
+dedicated-ded,dedicated,ded,,ded
+dedicated-denom,dedicated,denom,,denom
+dedicated-desid,dedicated,desid,,desid
+dedicated-see,dedicated,see,,see
+dedicated-think,dedicated,think,,think
+dedicated-hear-see-know-follow,dedicated,hear, see, know, follow,,hear, see, know, follow
+dedicated-unknown,dedicated,?,,?
+type-dir,type,dir,,dir
+type-ind,type,ind,,ind

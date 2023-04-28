@@ -1,0 +1,49 @@
+id,family_id,parent_id,name,form,productive,base,dedicated,type,latitude,longitude,iso639P3code,reference
+japh1234,sino1245,jiar1240,Japhug,nɤ-,p,V,denom,dir,32.1,102.36,,\citet[868-874]{jacques21grammar}
+situ1238,sino1245,core1262,Situ,nɐ-,p,V,denom,dir,31.590536,102.660664,,\citet[162-164]{zhangshuya20these}
+ainu1240,ainu1252,hokk1250,Hokkaido Ainu,e-,n,V,appl,ind,43.633654,142.46167,ain,\citep[90]{tamura96saru}
+cent2127,eski1264,yupi1267,Central Alaskan Yupik,-kɨ,p,N,ded,dir,60.3062,-161.486,esu,\citet[993]{miyaoka12yupik}
+west2618,eski1264,inui1246,Western Canadian Inuktitut,-gi,p,N,ded,dir,64.3486,-96.148,ikt,\citep[199]{lowe01sallirmiut}
+otta1242,algi1248,ojib1241,Ottawa,-enim,p,V,think,dir,44.5988,-83.226,otw,\citep[460]{valentine01grammar}
+seve1240,algi1248,seve1242,Severn Ojibwa,-enim,p,V,think,dir,53.9092,-89.9331,ojs,\citet{slavin12ojicree}
+chip1241,algi1248,cent2252,Chippewa,-enim,p,V,think,dir,47.347,-94.2738,ciw,\citet{nichols95ojibwe-dico}
+mesk1242,algi1248,foxx1245,Meskwaki,-ênem,p,V,think,dir,44.0,-89.0,sac,\citet{goddard05meskwaki}
+plai1258,algi1248,plai1264,Plains Cree,-āýim,p,V,think,dir,51.2437,-110.463,crk,\citep{wolvengrey01nehiyawewin}
+arap1274,algi1248,arap1280,Arapaho,-eeneb,p,V,think,dir,43.3879,-108.81,arp,\citep[173]{cowell06arapaho}
+chey1247,algi1248,algo1257,Cheyenne,-átam,p,V,think,dir,45.5321,-106.659,chy,\citep{fisher17cheyenne} 
+siks1238,algi1248,algo1256,Siksika,-imm,p,V,think,dir,49.0669,-113.109,bla,\citep{frantz17blackfoot}
+nezp1238,saha1239,saha1239,Nez Percé,-neki,n,N,consider,dir,46.3073,-116.408,nez,\citet[314;474;768]{aoki94nezperce}
+clas1250,utoa1244,cent2258,Classical Nahuatl,"-caqui, -itta, -mati, -toca",p,N/Adj,"hear, see, know, follow",dir,19.72,-96.97,nci,\citet{wimmer06nahuatl}
+mapu1245,arau1255,arau1255,Mapudungun,-ntu,?,V/N/Adj,denom,dir,-38.7392,-71.277,arn,\citet[127]{smeets08mapuche}
+cavi1250,pano1259,taca1255,Cavineña,-ba,n,Adj,see,dir,-13.3544,-66.6277,cav,\citet[377-379]{guillaume08cavinena}
+nucl1301,turk1311,west2406,Turkish,-imse,p,N/Adj,ded,dir,39.8667,32.8667,tur,\citet[56]{goksel05grammar};
+alam1246,sepi1257,east2496,Alamblak,hɨti-,?,Adj,see,dir,-4.66307,143.316,amp,\citet[273]{bruce79alamblak}
+abaz1241,abkh1242,abkh1243,Abaza,ma-,p,V,ded,ind,44.25,42.0,abq,\citet[184-185:227]{tabulova76abazinskogo}
+adyg1241,abkh1242,circ1239,Adyghe,ṣ̂ʷe-,p,V,appl,ind,44.0,39.33,ady,\citealt[265]{rogava66adygej}
+nana1257,tung1282,orok1264,Nanai,-si,p,N/Adj,ded,dir,48.43426,134.79726,gld,\citet[551]{onenko80nanaj}
+even1259,tung1282,west2427,Evenki,-tV,?,N,denom,dir,61.972,94.689,evn,\citet[790]{vasilevich58evenk}
+manc1252,tung1282,manc1251,Manchu,"-la, -ša",?,N/Adj,denom,dir,47.31225,126.55713,mnc,\citet{norman13manchu}
+tuvi1240,turk1311,saya1244,Tuvinian,-ɨɨrga,p,N/Adj,denom,dir,51.7,94.36667,tyv,\citet[269-270]{isxakov61tuvinskogo}
+halh1238,mong1349,mong1331,Halh Mongolian,-šAA,p,Adj,ded,dir,48.32397,106.28874,khk,\citep[146]{janhunen10mongolian} 
+anci1242,indo1319,east2798,Ancient Greek,-iz-,n,Adj,denom,dir,39.8155,21.9129,grc,personal knowledge
+nene1249,ural1272,nene1251,Tundra Nenets,-kəbta,p,Adj,caus,dir,66.1775,71.0234,yrk,\citet[121]{stenin15nenets}
+nort2671,ural1272,cent2240,North Saami,-š-,n,N/Adj,ded,dir,68.725,22.1113,sme,\citet[338]{korhonen81lapin}
+finn1318,ural1272,nucl1717,Finnish,-ksu,n,N/Adj,ded,dir,64.7628,25.5577,fin,\citep[197-198]{hakulinen61finnish}
+oldc1244,sino1245,sini1245,Old Chinese,*-s,n,V/N/Adj,caus,dir,36.12,114.32,och,\citep{jacques16ssuffixes}
+amha1245,afro1255,amha1244,Amharic,aC_1C_1aC_2C_2äC_3ä,n,V,caus,dir,11.708182,39.543456,amh,\citet[476;488]{leslau96amharic}
+stan1318,afro1255,arab1395,Standard Arabic,form X,?,V,caus,dir,27.9625,43.8525,arb,\citep{larcher96}
+sand1273,,,Sandawe,-m̥̀sé,p,N/Adj,desid,dir,-5.26918,35.4808,sad,\citet[129]{eaton10sandawe}
+lako1247,siou1252,siou1253,Lakota,-lakA,p,V,ded,dir,46.3699,-103.95,lkt,\citet[317]{ullrich08}
+halk1245,sali1255,cent2129,Halkomelem,-stəxʷ,n,V,caus,dir,49.250402,-122.443668,hur,\citet[239]{suttles04musqueam}
+koas1236,musk1252,alab1247,Koasati,im-,n,V,appl,ind,30.4096,-92.709,cku,\citep[37]{kimball94koasati}
+muru1274,huit1251,mini1255,Murui Huitoto,-rui,p,Adj,?,dir,-1.13669,-73.8331,huu,\citet[377;409]{wojtylak17murui}:
+movi1243,,,Movima,-poj,n,Adj,caus,dir,-13.8115,-65.6348,mzp,\citet[51;118]{haude06movima}
+niva1238,mata1289,mata1290,Nivaclé,-julh-X-m,p,V,appl,ind,-22.8557,-61.7606,cag,\citep[344]{fabre16nivacle}
+taga1270,aust1307,taga1269,Tagalog,-an,n,V,appl,ind,14.06,121.747,tgl,"Ricardo Ma. Duran Nolasco, p.c."
+cebu1242,aust1307,bisa1268,Cebuano,-an,n,V,appl,ind,8.38799,124.367,ceb,\citet[368]{tanangkingsing09cebuano}
+ilok1237,aust1307,nort3238,Iloko,tagi-...-en,p,V,ded,dir,15.9361,120.993,ilo,\citet[588]{rubino00ilocano}.
+wara1300,aust1307,sama1315,Waray (Philippines),-an,n,V,appl,ind,11.4911,125.012,war,\citet{payne22waray}
+kwaz1243,,,Kwaza,-dy,?,V,caus,dir,-11.6667,-61.1833,xwa,\citet[360;368]{voort04kwaza}
+omah1247,siou1252,dheg1241,Omaha-Ponca,-the,n,V,caus,dir,42.0944,-96.5295,oma,\citet[279]{marsault21these}
+nort2745,yuka1259,yuka1259,Tundra Yukaghir,-gii,n,V,?,dir,70.498,157.853,ykg,\citep[88]{kurilov01yukaghir}
+east2556,otom1299,east2737,Yuhu,nu-,n,N,see,dir,20.5991,-98.0978,otm,\citep[179]{etchegoyen07yuhu} 
