@@ -15,7 +15,7 @@ dedicated-denom,dedicated,denom,,denom
 dedicated-desid,dedicated,desid,,desid
 dedicated-see,dedicated,see,,see
 dedicated-think,dedicated,think,,think
-dedicated-hear-see-know-follow,dedicated,hear, see, know, follow,,hear, see, know, follow
+dedicated-hear-see-know-follow,dedicated,"hear, see, know, follow",,"hear, see, know, follow"
 dedicated-unknown,dedicated,?,,?
 type-dir,type,dir,,dir
 type-ind,type,ind,,ind
