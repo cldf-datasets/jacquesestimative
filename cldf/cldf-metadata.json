@@ -10,11 +10,12 @@
     "dc:license": "CC-BY 4.0",
     "dc:source": "sources.bib",
     "dc:title": "Estimative constructions in crosslinguistic perspective",
+    "dcat:accessURL": "https://github.com/cldf-datasets/jacquesestimative",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "jacquesestimative",
+            "rdf:about": "https://github.com/cldf-datasets/jacquesestimative",
             "rdf:type": "prov:Entity",
-            "dc:created": "0d4a6c8",
+            "dc:created": "d669fe8",
             "dc:title": "Repository"
         },
         {

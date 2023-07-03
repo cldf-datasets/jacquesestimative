@@ -3,6 +3,7 @@ Babel==2.12.1
 bs4==0.0.1
 certifi==2022.12.7
 cldfbench==1.13.0
+-e git+https://github.com/cldf-datasets/jacquesestimative.git@d669fe8fb5123560271e23a4ec79c89d72e4dcea#egg=cldfbench_jacquesestimative
 cldfcatalog==1.5.1
 cldfzenodo==1.1.0
 clldutils==3.19.0
