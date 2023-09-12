@@ -15,13 +15,13 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/jacquesestimative",
             "rdf:type": "prov:Entity",
-            "dc:created": "d669fe8",
+            "dc:created": "22bb6f0",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.7",
+            "dc:created": "v4.8",
             "dc:title": "Glottolog"
         }
     ],

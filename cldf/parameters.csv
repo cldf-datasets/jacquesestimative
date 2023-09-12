@@ -1,6 +1,6 @@
 ID,Name,Description,ColumnSpec
-form,form,,
-productive,productive,,
-base,base,,
-dedicated,dedicated,,
-type,type,,
+form,Estimative marker,the shape of the estimative marker (generally an affix),
+productive,Productivity of estimative,productivity of the morphological estimative pattern,
+base,Possible bases for estimative,the word classes with which estimative markers can be combined,
+dedicated,Other functions of estimative,other functions that morphological estimative constructions may have,
+type,Estimative alignment type,direct alignment or indirect alignment of estimative,
