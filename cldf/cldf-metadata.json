@@ -15,20 +15,20 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/jacquesestimative",
             "rdf:type": "prov:Entity",
-            "dc:created": "22bb6f0",
+            "dc:created": "7ca66a8",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.8",
+            "dc:created": "v5.0",
             "dc:title": "Glottolog"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.8.10"
+            "dc:description": "3.8.19"
         },
         {
             "dc:title": "python-packages",
@@ -220,7 +220,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Source_prose"
+                        "name": "Source_comment"
                     }
                 ],
                 "primaryKey": [
@@ -386,6 +386,17 @@
                         "name": "Meta_Language_ID"
                     },
                     {
+                        "dc:description": "The level of conformance of the example with the Leipzig Glossing Rules",
+                        "dc:extent": "singlevalued",
+                        "datatype": {
+                            "base": "string",
+                            "format": "WORD_ALIGNED|MORPHEME_ALIGNED"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#lgrConformance",
+                        "required": false,
+                        "name": "LGR_Conformance"
+                    },
+                    {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
                         "required": false,
@@ -399,7 +410,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Source_prose"
+                        "name": "Source_comment"
                     }
                 ],
                 "foreignKeys": [

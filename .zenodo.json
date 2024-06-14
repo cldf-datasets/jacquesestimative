@@ -1,0 +1,24 @@
+{
+    "creators": [
+        {
+            "name": "Guillaume Jacques"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Johannes Englisch",
+            "type": "Other"
+        },
+        {
+            "name": "Martin Haspelmath",
+            "type": "Other"
+        }
+    ],
+    "title": "Estimative constructions in crosslinguistic perspective",
+    "access_right": "open",
+    "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+    ],
+    "upload_type": "dataset"
+}

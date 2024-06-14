@@ -1,4 +1,4 @@
-ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_ID,Parent_ID,Source,Source_prose
+ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family_ID,Parent_ID,Source,Source_comment
 japh1234,Japhug,,32.1,102.36,japh1234,,sino1245,jiar1240,jacques21grammar[868-874],
 situ1238,Situ,,31.590536,102.660664,situ1238,,sino1245,core1262,zhangshuya20these[162-164],
 ainu1240,Hokkaido Ainu,,43.633654,142.46167,ainu1240,ain,ainu1252,hokk1250,tamura96saru[90],
