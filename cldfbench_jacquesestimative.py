@@ -48,7 +48,7 @@ def add_source(row):
             reference = bibkey
         row['Source'] = [reference]
     else:
-        row['Source_prose'] = row['reference']
+        row['Source_comment'] = row['reference']
 
 
 def make_value(row, code_table, code_id_map, param_id):
@@ -167,7 +167,7 @@ class Dataset(BaseDataset):
                 'separator': ';',
                 'name': 'Source',
             },
-            'Source_prose')
+            'Source_comment')
         args.writer.cldf.add_component('ParameterTable')
         args.writer.cldf.add_component('CodeTable')
         args.writer.cldf.add_component(
@@ -178,7 +178,7 @@ class Dataset(BaseDataset):
                 'separator': ';',
                 'name': 'Source',
             },
-            'Source_prose')
+            'Source_comment')
 
         # cldf output
 
