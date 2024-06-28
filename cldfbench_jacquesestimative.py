@@ -1,6 +1,8 @@
 import collections
 import pathlib
 import re
+import sys
+from itertools import zip_longest
 
 from cldfbench import CLDFSpec, Dataset as BaseDataset
 
@@ -81,6 +83,36 @@ def detex(gloss):
     return gloss
 
 
+def render_example(example):
+    words = example['Analyzed_Word']
+    glosses = example['Gloss']
+    id_width = len(example['ID'])
+    widths = [max(len(w), len(g)) for w, g in zip(words, glosses)]
+    padded_words = [
+        word.ljust(width)
+        for word, width in zip_longest(words, widths, fillvalue=0)]
+    padded_glosses = [
+        gloss.ljust(width)
+        for gloss, width in zip_longest(glosses, widths, fillvalue=0)]
+    return '({})  {}\n{}    {}'.format(
+        example['ID'],
+        '  '.join(padded_words).rstrip(),
+        ' ' * id_width,
+        '  '.join(padded_glosses).rstrip())
+
+
+def warn_about_glosses(example_table):
+    mismatched_examples = [
+        example
+        for example in example_table
+        if len(example['Analyzed_Word']) != len(example['Gloss'])]
+    if mismatched_examples:
+        print("ERROR: Misaligned glosses in examples:", file=sys.stderr)
+        for example in mismatched_examples:
+            print(file=sys.stderr)
+            print(render_example(example), file=sys.stderr)
+
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "jacquesestimative"
@@ -155,6 +187,7 @@ class Dataset(BaseDataset):
                 example['Language_ID'],
                 examples_per_language[example['Language_ID']])
             add_source(example)
+        warn_about_glosses(example_table)
 
         # cldf schema
 
