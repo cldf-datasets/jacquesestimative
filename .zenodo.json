@@ -31,5 +31,8 @@
         {
             "identifier": "crossgram"
         }
-    ]
+    ],
+    "license": {
+        "id": "CC-BY-4.0"
+    }
 }
