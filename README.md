@@ -8,7 +8,7 @@ this dataset using the DOI of the [particular released version](../../releases/)
 ## Description
 
 
-This dataset is licensed under a CC-BY 4.0 license
+This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://github.com/cldf-datasets/jacquesestimative
 

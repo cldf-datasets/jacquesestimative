@@ -7,7 +7,7 @@
     ],
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
     "dc:identifier": "https://github.com/cldf-datasets/jacquesestimative",
-    "dc:license": "CC-BY 4.0",
+    "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:source": "sources.bib",
     "dc:title": "Estimative constructions in crosslinguistic perspective",
     "dcat:accessURL": "https://github.com/cldf-datasets/jacquesestimative",
@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/jacquesestimative",
             "rdf:type": "prov:Entity",
-            "dc:created": "f4221bd",
+            "dc:created": "15597fd",
             "dc:title": "Repository"
         },
         {
