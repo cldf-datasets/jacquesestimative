@@ -35,8 +35,8 @@ def patch_biblio(bibtex_code):
         'Ringe, Donald A., Jr.,',
         'Ringe, Donald A. Jr.')
     bibtex_code = bibtex_code.replace(
-         'Yahalom-Mack, Naama, Eliyahu-Behar, Adi',
-         'Yahalom-Mack, Naama and Eliyahu-Behar, Adi')
+        'Yahalom-Mack, Naama, Eliyahu-Behar, Adi',
+        'Yahalom-Mack, Naama and Eliyahu-Behar, Adi')
     return bibtex_code
 
 
