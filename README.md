@@ -10,7 +10,7 @@ this dataset using the DOI of the [particular released version](../../releases/)
 
 This dataset is licensed under a CC-BY-4.0 license
 
-Available online at https://github.com/cldf-datasets/jacquesestimative
+Available online at https://crossgram.clld.org/contributions/jacquesestimative
 
 
 ## CLDF Datasets
