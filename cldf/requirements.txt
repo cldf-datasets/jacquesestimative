@@ -5,7 +5,7 @@ bibtexparser==2.0.0b7
 bs4==0.0.2
 certifi==2024.7.4
 cldfbench==1.14.0
--e git+https://github.com/cldf-datasets/jacquesestimative.git@15597fd5776b5865dcae09419708e44356b0af8e#egg=cldfbench_jacquesestimative
+-e git+https://github.com/cldf-datasets/jacquesestimative.git@c2721ee09e3d2dea585a8fdfe54ba63b1315c351#egg=cldfbench_jacquesestimative
 cldfcatalog==1.5.1
 cldfzenodo==2.1.1
 clldutils==3.22.2
